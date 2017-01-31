@@ -1,0 +1,60 @@
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 31 Jan 2017 08:33:30 at http://yunesaldhabi.eu.pn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://yunesaldhabi.eu.pn/ -O1 "C:\My Web Sites\about\about" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+08:34:00	Error: 	"Not Found" (404) at link 3.bp.blogspot.com/-ikbN5M63GI0/UI6K9p9Ag4I/AAAAAAAAANU/MO7QWNEBR78/s1600/rsz_t.gif (from yunesaldhabi.eu.pn/)
+
+08:34:19	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/js/jquery.mousewheel.js (from yunesaldhabi.eu.pn/)
+
+08:34:19	Error: 	"Not Found" (404) at link https://gadget-irvan.googlecode.com/files/irvan-creations.blogspot.com - Twitt Bird.js (from yunesaldhabi.eu.pn/)
+
+08:34:19	Error: 	"Not Found" (404) at link yunesaldhabi.eu.pn/Twitter - UserID http://irvan-efendy.blogspot.com/ (from yunesaldhabi.eu.pn/)
+
+08:34:19	Error: 	"Not Found" (404) at link https://not-delete.googlecode.com/files/load.js (from yunesaldhabi.eu.pn/)
+
+08:34:20	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/images/flash.png (from yunesaldhabi.eu.pn/)
+
+08:34:20	Error: 	"Not Found" (404) at link 1.bp.blogspot.com/-FOMqoCSyRYE/UI594BXEUcI/AAAAAAAAANA/tq2KD1NJ4Cc/s1600/e.jpg (from yunesaldhabi.eu.pn/)
+
+08:34:20	Error: 	"Not Found" (404) at link 1.bp.blogspot.com/-p_QqPOdwkxQ/UI9OAZGq9aI/AAAAAAAAAOk/J2CElAzEjp4/s1600/e.jpg (from yunesaldhabi.eu.pn/)
+
+08:34:20	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/images/prettyPhoto/default/sprite.png (from karena.aku.sexyi.am/css/prettyPhoto.css)
+
+08:34:29	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/images/shut-left.png (from karena.aku.sexyi.am/css/style.css)
+
+08:34:30	Error: 	"Not Found" (404) at link yunesaldhabi.eu.pn/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from connect.facebook.net/en_US/all.js)
+
+08:34:30	Error: 	"Not Found" (404) at link yunesaldhabi.eu.pn/restserver.php (from connect.facebook.net/en_US/all.js)
+
+08:34:30	Error: 	"Not Found" (404) at link yunesaldhabi.eu.pn/dialog/ (from connect.facebook.net/en_US/all.js)
+
+08:34:31	Warning: 	Found for karena.aku.sexyi.am/robots.txt
+
+08:34:31	Warning: 	File has moved from karena.aku.sexyi.am/robots.txt to http://redirect.main-hosting.com/error404.php/5?domain=karena.aku.sexyi.am
+
+08:34:31	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/css/fonts/ubuntumono-r-webfont.ttf (from karena.aku.sexyi.am/css/fonts.css)
+
+08:34:31	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/css/fonts/ubuntumono-ri-webfont.eot? (from karena.aku.sexyi.am/css/fonts.css)
+
+08:34:32	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/css/fonts/ubuntumono-ri-webfont.svg (from karena.aku.sexyi.am/css/fonts.css)
+
+08:34:36	Warning: 	Retry after error -4 (No data (connection closed)) at link karena.aku.sexyi.am/css/fonts/ubuntumono-ri-webfont.eot? (from karena.aku.sexyi.am/css/fonts.css)
+
+
+
+HTTrack Website Copier/3.48-22 mirror complete in 1 minutes 7 seconds : 122 links scanned, 103 files written (1681938 bytes overall) [1525900 bytes received at 22774 bytes/sec], 489071 bytes transferred using HTTP compression in 14 files, ratio 23%, 2.8 requests per connection
+
+(9 errors, 10 warnings, 0 messages)
+
