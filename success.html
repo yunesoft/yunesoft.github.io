@@ -1,0 +1,42 @@
+<!--
+ Autor = Pablo Archanco Alonso
+ Fecha = 16/12/2015
+ Licencia = gpl30
+ Version 1.0
+ Descripcion = 
+ -->
+
+<!--
+ Copyright (C) 2015 Pablo Archanco Alonso
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by 
+ Free Software Fundation, either version 3 of the License, or 
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that will be useful, 
+ but WITHOUT ANY WARRANTY whithout even implied warranty of 
+ MERCHANTIBILITY or FIINESS FOR A PARTICULAR PURPOSE. see the
+   GNU General Public License for more details
+ 
+ You should have recived a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/license/>
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p>Su formulario ha sido enviado con exito, será redirigido a la pagina en <span id="countdown">5</span> segundos</p>
+<script>
+    setTimeout(function () {
+        window.location.href = "contact.html";
+        setTimeout(function(){
+            document.getElementById('countdown').innerHTML = ''+contador;
+        },1000)
+    }, 5000);
+
+</script>
+</body>
+</html>

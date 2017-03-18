@@ -1,0 +1,25 @@
+/* ESTILOS DE LA PAGINA SECUNDARIA LICENCIA */
+
+/* BOTONES */
+.boton {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    color: #fff;
+    background: #006e9d;
+    padding: 0.5vw 1.5vw;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.boton:hover {
+    color: #fff;
+    background-color: #389DD4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #fff;
+}

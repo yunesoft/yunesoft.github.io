@@ -1,0 +1,26 @@
+/* ESTILOS DE LA SECCIÓN 'SERVICIOS' */
+
+#services .intro-image{
+	background-image: url("../img/intros/services.jpg");
+}
+#services-main {
+    background-color: #006e9d;
+    color: #fff;
+    text-align: center;
+}
+#services-secundary {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+#services-main h2, #services-secundary h2 {
+    margin-bottom: 0;
+}
+#services-secundary img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #services-secundary img {
+        width: 50%;
+    }
+}
