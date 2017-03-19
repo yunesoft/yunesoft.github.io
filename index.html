@@ -1,418 +1,297 @@
+<!--
+    Autor=Javier, Pablo Archanco y Miguel Paraiso
+    Fecha=10-dic-2015
+    Licencia=GPL v3
+    Version=1.0
+    Descripcion=Página principal de "Webear"
+-->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="UTF-8">
-
-	<title>IBN ALHAG</title>
-	
-	<!-- Main CSS file -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/font-awesome.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/responsive.css" />
-
-	
-	<!-- Favicon -->
-	
-	
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-	
+    <title>Página principal - Webear</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="licenciaPopUp.js"></script>
+    <script type="text/javascript" src="cookies.js"></script>
+    <script type="text/javascript" src="cookiebar.js"></script>
+    <script type="text/javascript" src="jquery.flexisel.js"></script>
+    <link href="flexisel.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="cookiebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="social-sidebar.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="flip-container.css">
 </head>
-<body>
-
-
-	<!-- HEADER -->
-	<header id="header">
-		<nav class="navbar st-navbar navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-				    	<span class="icon-bar"></span>
-				    	<span class="icon-bar"></span>
-				    	<span class="icon-bar"></span>
-					</button>
-			<body class="home page page-id-2 page-template page-template-full-width-page-php">
-<div class="main">
-
-	<div id="header">
-		<div class="container">
-								<div class="container">
-		
-				        <div id="logo">
-				<a href="index.html" title="IBN ALHAG"><img src="images/logo.png" width="193" height="65" alt="IBN ALHAG"/></a>
+<body onload="setNameCookie();">
+<header class="col-12">
+    <div class="grid">
+        <div id="logo" class="col-5">
+            <h1><a href="index.html"><img src="logo.png" alt="Logo Webear"/></a></h1>
+        </div>
+        <div id="header-links" class="col-7">
+            <div class="top-links col-12">
+                <div id="user-log">Alhag34@ <span id="user-span">yahoo.com</span></div>
+                <a href="legal.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
+                <a href="#">chinese - ES</a><span> | </span><a href="#">Alhag</a>
+            </div>
+            <div class="bottom-links col-12">
+                <a href="#" id="contact-phone">
+                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">18 061 429 953</span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav id="menu">
+    <ul>
+        <li class="active"><a href="index.html"><span>Home</span></a></li>
+        <li class="has-sub"><a href="services.html"><span>About Us </span><span class="sr-only">Tiene una lista desplegable</span></a>
+            <ul>
+                     <li><a href="services.html#services-main"><span>IBN ALHAG</span></a></li>
+                <li><a href="services.html#services-secundary"><span>international trade</span></a></li>
+            </ul>
+        </li>
+        <li><a href="projects.html"><span>Our Services</span></a></li>
+        <li><a href="about-us.html"><span>SOCIAL MEDIA</span></a></li>
+        <li><a href="contact.html"><span>Contact Us</span></a></li>
+    </ul>
+</nav>
+<aside id="sticky-social">
+    <ul>
+        <li><a href="#" class="facebook" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i><span>Facebook</span></a></li>
+        <li><a href="#" class="twitter" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#" class="gplus" target="_blank"><i aria-hidden="true" class="fa fa-google-plus"></i><span>Google+</span></a></li>
+        <li><a href="#" class="linkedin" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i><span>LinkedIn</span></a></li>
+        <li><a href="#" class="instagram" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#" class="pinterest" target="_blank"><i aria-hidden="true" class="fa fa-pinterest"></i><span>Pinterest</span></a></li>
+    </ul>
+</aside>
+<section id="home">
+	<!-- Slider -->
+	<div class="csslider1 autoplay ">
+		<input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_3" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
+		<input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
+		<ul>
+			<li class="cs_skeleton"><img src="slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear" style="width: 100%;"></li>
+			<li class="num0 img slide"> <img src="slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear"></li>
+			<li class="num1 img slide"> <img src="slider_2.jpg" alt="Manos sujetando una esfera del mundo con conectores que representan la red de internet"></li>
+			<li class="num2 img slide"> <img src="slider_3.jpg" alt="Varias personas haciendo networking"></li>
+			<li class="num3 img slide"> <img src="slider_4.jpg" alt="Aplicaciones multiplataforma sobre diferentes dispositivos"></li>
+		</ul>
+		<div class="cs_play_pause">
+			<label class="cs_play" for="cs_play1"><i aria-hidden="true"></i><span class="sr-only">Activar transición automática de imágenes</span><span class="bold"></span></label>
+			<label class="cs_pause num0" for="cs_pause1_0"><i aria-hidden="true"></i><span class="sr-only">Parar transición automática de imágenes</span><span class="bold"></span></label>
 		</div>
-
-				<div class="collapse navbar-collapse" id="st-navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-				    	<li><a href="#header">Home Page </a></li>
-				    	<li><a href="#about">About Us</a></li>
-				    	<li><a href="#social">Social Media</a></li>
-				    	<li><a href="#contact">Contact Us</a></li>
-				   
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container -->
-		</nav>
-	</header>
-	<!-- /HEADER -->
-
-
-	<!-- SLIDER -->
-	<section id="slider">
-		<div id="home-carousel" class="carousel slide" data-ride="carousel">			
-			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(images/slider/01.jpg)">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>Welcome to </h1><br/>
-								<h2>&nbsp;&nbsp;&nbsp;IBN ALHAG.</h2>
-								<h1></h1>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/slider/02.jpg)">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>Welcom to   </h1>
-								<h2>&nbsp;&nbsp;&nbsp;Ibn Alhag Website</h2>
-								<p>Promoting professionalism in the practice of manufacture, evidenced by product and service quality, workmanship rendered by trained, skillful work force, and application of systems and procedures in the operations.
-</p>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/slider/03.jpg)">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>Welcom to </h1><br/>
-								<h2>&nbsp;&nbsp;&nbsp;Ibn Alhag </h2>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/slider/04.jpg)">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>Welcom to</h1><br/>
-								<h2>&nbsp;&nbsp;&nbsp;Ibn Alhag</h2>
-								<p>Our company focuses on optimal procedures in order to maximize efficiency in the manufacture of garments.</p>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-				<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			</div>		
-		</div> <!--/#home-carousel--> 
-    </section>
-	<!-- /SLIDER -->
-
-		<!-- OUR TEAM -->
-	<section id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<br><br><br>
-						<h1><br/>Ibn Alhag .</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-				
-				<div class="col-md-1">
-				</div>
-
-				<div class="col-md-10">
-					
-					
-						
-						<h3>In Brief</h3> 
-						
-						
-						 <p>A garment manufacturing group <b>established in December 2002,</b> is in the business of supply and manufacture items for both local and export market.
-						<br><br>
-						The company would like to promote <b>professionalism</b> in the practice of garment manufacturing evidenced by product and <b>service</b> quality, <b>workmanship</b> rendered by trained, <b>skillful work force</b>, and application of systems and procedures in the operations.
-						<br><br>
-						The Garment District is housed in a <b>1,200 m<sup>2</sup></b> warehouse facility in the factory Sunny Realty Compound, Sandoval Avenue, Pasig City.
-						 </p>
-						 <br>
-						
-						<h3>Manufacture and supply of garments</h3> 
-
-						<p>The company supplies various garment items for <b>men's, ladies and children's</b> such as basic and high fashion <b>denim pants,</b> cargo pants, tokong and <b>shorts,</b> capri pants and bermuda shorts for ladies and girls, basic and <b>high fashion jackets,</b> shirts, blouses and children's dresses . <b>Specialty items</b> that are garment-related like <b>bags and belts</b> can also be supplied based on customer's requirements.</p>
-						 <br>
-						 
-						<h3>Uniforms and company-specific products</h3> 
-						
-						<p>The company extends its services in the manufacture and supply of <b>uniforms & promotional products</b>.</p>
-						<br><br><br>
-					
-				</div>
-				
-				<div class="col-md-1">
-				</div>
-				
-			</div>
+		<div class="cs_arrowprev">
+			<label class="num0" for="cs_slide1_0"><i aria-hidden="true"></i><span class="sr-only">Volver a la imagen anterior</span><span class="bold"></span></label>
+			<label class="num1" for="cs_slide1_1"><i aria-hidden="true"></i><span class="sr-only">Volver a la imagen anterior</span><span class="bold"></span></label>
+			<label class="num2" for="cs_slide1_2"><i aria-hidden="true"></i><span class="sr-only">Volver a la imagen anterior</span><span class="bold"></span></label>
+			<label class="num3" for="cs_slide1_3"><i aria-hidden="true"></i><span class="sr-only">Volver a la imagen anterior</span><span class="bold"></span></label>
 		</div>
-	</section>
-	<!-- /OUR TEAM -->
-	
-		<!-- ABOUT US -->
-	<section id="about-us">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="about-us text-center">
-					<br><br><br>
-						<h4>Performance and Quality</h4>
-						<p>A member of the Philippine Total Quality Management (TQM), benchmarking group for small and medium scale establishments, the company continues to operate in alignment with SA 8000 and possibly ISO 8000 in the near future.</p>
-						<a href="#contact" class="btn btn-send">Contact Us</a>
-					</div>
-				</div>
-				<div class="col-sm-6 our-office">
-					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/office/04.jpg" alt="">
-							</div>
-							<div class="item">
-								<img src="images/office/02.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/03.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/05.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/06.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/07.jpg" alt="">			
-							</div>
-							<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-						</div>		
-					</div> <!--/#office-carousel--> 
-				</div>
-			</div>
+		<div class="cs_arrownext">
+			<label class="num0" for="cs_slide1_0"><i aria-hidden="true"></i><span class="sr-only">Pasar a la siguiente imagen</span><span class="bold"></span></label>
+			<label class="num1" for="cs_slide1_1"><i aria-hidden="true"></i><span class="sr-only">Pasar a la siguiente imagen</span><span class="bold"></span></label>
+			<label class="num2" for="cs_slide1_2"><i aria-hidden="true"></i><span class="sr-only">Pasar a la siguiente imagen</span><span class="bold"></span></label>
+			<label class="num3" for="cs_slide1_3"><i aria-hidden="true"></i><span class="sr-only">Pasar a la siguiente imagen</span><span class="bold"></span></label>
 		</div>
-	</section>
-	<!-- /ABOUT US -->
-	
-		<!-- PRICING -->
-	<section id="social">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-					<br><br><br>
-						<h1>Connect with Us</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Facebook</h5>
-						<h3><i class="fa fa-facebook-official"></i></h3>
-						<div class="st-border"></div>
-						<ul>
-							<li><a href="https://www.facebook.com/hamadh.alhag">facebook.com/tgdiPH</a></li>
-							<li>News and Updates</li>
-							<li>Photos</li>
-							<li>Contact details</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="https://www.facebook.com/hamadh.alhag" class="btn btn-send">Like Our Page</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Twitter</h5>
-						<h3><i class="fa fa-twitter"></i></h3>
-						<div class="st-border"></div>
-						<ul>
-							<li><a href="https://www.facebook.com/hamadh.alhag">@tgdi_ph</a></li>
-							<li>Quick Updates</li>
-							<li>Photos</li>
-							<li>Contact details</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="https://www.facebook.com/hamadh.alhag" class="btn btn-send">Follow Us!</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Instagram</h5>
-						<h3><i class="fa fa-instagram"></i></h3>
-						<div class="st-border"></div>
-						<ul>
-							<li><a href="https://www.facebook.com/hamadh.alhag">@tgdi_ph</a></li>
-							<li>Latest #trends</li>
-							<li>Photos</li>
-							<li>Contact details</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="https://www.facebook.com/hamadh.alhag" class="btn btn-send">Follow Us!</a>
-					</div>
-				</div>
-				
-			</div>
+		<div class="cs_bullets">
+			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
+				<span class="cs_thumb"><img src="slider_1.jpg" alt="Miniatura de la primera imagen, que muestra varias pantallas con proyectos web que ha realizado webear"></span></label>
+			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
+				<span class="cs_thumb"><img src="slider_2.jpg" alt="Miniatura de la segunda imagen, que muestra unas manos sujetando una esfera del mundo con conectores que representan la red de internet"></span></label>
+			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
+				<span class="cs_thumb"><img src="slider_3.jpg" alt="Miniatura de la tercera imagen, que muestra varias personas haciendo networking"></span></label>
+			<label class="num3" for="cs_slide1_3"> <span class="cs_point"></span>
+				<span class="cs_thumb"><img src="slider_4.jpg" alt="Miniatura de la cuarta imagen, que muestra aplicaciones multiplataforma sobre diferentes dispositivos"></span></label>
 		</div>
-	</section>
-	<!-- /PRICING -->
-
-
-
-	
-	<!-- TESTIMONIAL -->
-	<section id="testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="overlay"></div>
-				<div class="col-md-8 col-md-offset-2 col-sm-12">
-					<div class="st-testimonials">
-
-						<div class="item active text-center">
-							<p>The company is equipped with updated equipment in full support to an efficient production of an estimated 40,000 units of assorted garments with a lead time of 6 to 8 weeks.</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>Factory Capacity</h5>
-								<span>as of September 2016</span> 
-							</div>
-						</div>
-
-						<div class="item active text-center">
-							<p>A unit that supports the accuracy in pattern making, designs, grading, and marking which gives quality produce.</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>Pattern Making Machine</h5>
-								<span>Gerber Technology</span> 
-							</div>
-						</div>
-
-						<div class="item text-center">
-							<p>A programmable electronic pattern sewer provided with cylinder bed for decorative stitching, attaching of leather patches and labels, emblems, bar tacking, sewing of seat belts, curtain darts, and airbags.</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>The "Alex"</h5>
-								<span>Specialized Machine</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /TESTIMONIAL -->
-	
-	<!-- CONTACT -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Contact us</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-				<div class="col-sm-4 contact-info">
-					<p class="contact-content">Contact us today .</p>
-					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>Jiangning, Nanjing, Jiangsu, China</strong></p>
-					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+86-18061429953 </strong></p>
-					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>Alhag34@yahoo.com</strong></p>
-					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.ibnalhag.eu.pn</strong></p>
-				
-				</div>
-
-				<div class="col-sm-6 our-office">
-					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/office/04.jpg" alt="">
-							</div>
-							<div class="item">
-								<img src="images/office/02.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/03.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/05.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/06.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/07.jpg" alt="">			
-							</div>
-							<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-						</div>		
-					</div>
-			</div>
-		</div>
-	</section>
-	<!-- /CONTACT -->
-
-	<!-- FOOTER -->
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<!-- SOCIAL ICONS -->
-				<div class="col-sm-6 col-sm-push-6 footer-social-icons">
-					<span>Follow us:</span>
-					<a href="https://www.facebook.com/hamadh.alhag"><i class="fa fa-facebook"></i></a>
-					<a href="https://www.facebook.com/hamadh.alhag"><i class="fa fa-twitter"></i></a>
-					<a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
-				</div>
-				<!-- /SOCIAL ICONS -->
-				<div class="col-sm-6 col-sm-pull-6 copyright">
-					<p>&copy; 2014 <a href="">Jiangning, Nanjing, Jiangsu, China.</a>. All Rights Reserved.</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- /FOOTER -->
-
-
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<ul><li><a href="#header"><i class="fa fa-angle-up"></i></a></li></ul>
 	</div>
-
-	
-	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-	<script type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
-	<script type="text/javascript" src="js/smoothscroll.js"></script><!-- Smooth Scroll -->
-	<script type="text/javascript" src="js/masonry.pkgd.min.js"></script><!-- masonry -->
-	<script type="text/javascript" src="js/jquery.fitvids.js"></script><!-- fitvids -->
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
-	<script type="text/javascript" src="js/jquery.counterup.min.js"></script><!-- CounterUp -->
-	<script type="text/javascript" src="js/waypoints.min.js"></script><!-- CounterUp -->
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- isotope -->
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
-	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
-
-
+	<!-- End Slider -->
+    <!-- Contenido web -->
+    <article id="about">
+        <div class="grid">
+            <div id="about-logo" class="col-6">
+            </div>
+            <div id="about-inf" class="col-6">
+                <h2>Conoce a Webear</h2>
+                <p>
+                    Sabemos que son muchos los caminos que pueden llevar al éxito tu negocio, pero desde el primer
+                    momento
+                    hemos tenido claro cual tenía que ser nuestra fórmula, y por tanto, la fuerza motriz de nuestro
+                    trabajo:
+                </p>
+                <p class="big-text">
+                    "Facilitamos el día a día de personas y empresas mediante la creación de tecnología web y móvil."
+                </p>
+                <p>
+                    <span class="bold">
+                        ¿Quieres ver como trabajamos?
+                    </span>
+                </p>
+                <p>
+                    Echa un vistazo a nuestros últimos proyectos y contacta con nosotros para saber cómo podemos
+                    Alhagrte.
+                </p>
+            </div>
+        </div>
+    </article>
+    <!-- Servicios de la web -->
+    <article id="services">
+        <div class="grid">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontA">
+                        <i aria-hidden="true" class="fa fa-flag fa-5x"></i>
+                        <p class="title">Consultoría</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Consultoría Digital</p>
+                        <p class="content">Trabajamos en tu negocio, no solo en tu página web, para llegar a cumplir tus
+                            objetivos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontB">
+                        <i aria-hidden="true" class="fa fa-paint-brush fa-5x"></i>
+                        <p class="title">Diseño Web</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Diseño y desarrollo web</p>
+                        <p class="content">Diseños y desarrollamos páginas web que harán crecer tu negocio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontA">
+                        <i aria-hidden="true" class="fa fa-shopping-bag fa-5x"></i>
+                        <p class="title">Tiendas Online</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Tiendas Online</p>
+                        <p class="content">Diseñamos, desarrollamos y promocionamos tiendas online 100% enfocadas a la
+                            venta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontB">
+                        <i aria-hidden="true" class="fa fa-code fa-5x"></i>
+                        <p class="title">Programación</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Programación a medida</p>
+                        <p class="content">Programación a medida de páginas web y desarrollo software online de gestión
+                            empresarial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontB">
+                        <i aria-hidden="true" class="fa fa-level-up fa-5x"></i>
+                        <p class="title">Posicionamiento (SEO)</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Posicionamiento Web</p>
+                        <p class="content">Optimizamos y posicionamos las páginas web de nuestros clientes para alcanzar
+                            sus objetivos de visibilidad y tráfico.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontA">
+                        <i aria-hidden="true" class="fa fa-search-plus fa-5x"></i>
+                        <p class="title">AdWords (SEM)</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Publicidad en AdWords (SEM)</p>
+                        <p class="content">Creamos y gestionamos campañas de AdWords para que ganes tráfico de calidad y
+                            obtengas retorno de la inversión a corto plazo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontB">
+                        <i aria-hidden="true" class="fa fa-envelope fa-5x"></i>
+                        <p class="title">Email Marketing</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Campañas de Email Marketing</p>
+                        <p class="content">Disponemos de una plataforma propia para el envío de campañas de email
+                            marketing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="frontA">
+                        <i aria-hidden="true" class="fa fa-mobile fa-5x"></i>
+                        <p class="title">Apps Móviles</p>
+                    </div>
+                    <div class="back">
+                        <p class="title">Apps para iPhone y Android</p>
+                        <p class="content">Aplicaciones 100% enfocadas a la venta de tus productos y servicios, a la
+                            fidelización de tus clientes y a la captación de nuevos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <h2 id="titulo-empresas">Empresas con las que trabajamos</h2>
+    <article id="company-slider" class="col-12">
+        <div class="grid">
+            <!-- Animacion Empresas -->
+           <ul id="flexiselDemo3">
+                <li><a href="http://www.amazon.es/" target="_blank"><img alt="Amazon" src="img/empresas/logo-amazon.png"/></a></li>
+                <li><a href="https://www.android.com/intl/es_es/" target="_blank"><img alt="Android" src="img/empresas/logo-android.png"/></a></li>
+                <li><a href="https://www.ebay.es" target="_blank"><img alt="Ebay" src="img/empresas/logo-ebay.png"/></a></li>
+                <li><a href="http://www8.hp.com/es/es/home.html" target="_blank"><img alt="HP" src="img/empresas/logo-hp.png"/></a></li>
+                <li><a href="https://www.microsoft.com/" target="_blank"><img alt="Microsoft" src="img/empresas/logo-microsoft.png"/></a></li>
+            </ul>
+            <div class="clearout"></div>
+        </div>
+    </article>
+</section>
+<footer>
+    <div id="footer-bottom">
+        <div class="grid2">
+            <div class="footerInf col-12">
+                <p>Ctra. Colmenar Viejo, Km. 12,800 - 28049 Madrid - <a
+                        href="mailto:info@webear.com"><span class="bold">info@webear.com</span></a></p>
+            </div>
+            <div class="footerInf col-12">
+                <p>Copyright © 2015 Webear - <a href="legal.html"><span class="bold">Aviso legal</span></a> -
+                    <a href="privacity.html"><span class="bold">Política de privacidad</span></a> - <a onclick=ventanaLicencia();><span class="bold">Licencia</span></a>
+                    - <a href="contact.html"><span class="bold">Contacto</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    $(document).ready(function () {
+        $.cookieBar();
+    });
+</script>
 </body>
 </html>

@@ -1,0 +1,156 @@
+<!--
+    Autores=Javier, Pablo Archanco y Miguel Paraiso
+    Fecha=10-dic-2015
+    Licencia=GPL v3
+    Version=1.0
+    Descripcion=Sobre nosotros "Webear"
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sobre nosotros - Webear</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="licenciaPopUp.js"></script>
+    <script type="text/javascript" src="cookies.js"></script>
+    <script type="text/javascript" src="cookiebar.js"></script>
+    <link rel="stylesheet" href="cookiebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about-us.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="social-sidebar.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+<body onload="setNameCookie();">
+<header class="col-12">
+    <div class="grid">
+        <div id="logo" class="col-5">
+            <h1><a href="index.html"><img src="img/logos/logo.png" alt="Logo Webear"/></a></h1>
+        </div>
+        <div id="header-links" class="col-7">
+            <div class="top-links col-12">
+                <div id="user-log">Alhag34@ <span id="user-span">yahoo.com</span></div>
+                <a href="about-us.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
+                <a href="#">chinese- ES</a><span> | </span><a href="#">Alhag/a>
+            </div>
+            <div class="bottom-links col-12">
+                <a href="#" id="contact-phone">
+                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">180 6142 99 53</span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav id="menu">
+    <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li class="has-sub"><a href="services.html"><span>Servicios </span></a>
+            <ul>
+                <li><a href="services.html#services-main"><span>Nuestros servicios</span></a></li>
+                <li><a href="services.html#services-secundary"><span>Tecnologías de desarollo</span></a></li>
+            </ul>
+        </li>
+        <li><a href="projects.html"><span>Proyectos</span></a></li>
+        <li class="active"><a href="about-us.html"><span>Sobre nosotros</span></a></li>
+        <li><a href="contact.html"><span>Contacto</span></a></li>
+    </ul>
+</nav>
+<aside id="sticky-social">
+    <ul>
+        <li><a href="#" class="facebook" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i><span>Facebook</span></a></li>
+        <li><a href="#" class="twitter" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#" class="gplus" target="_blank"><i aria-hidden="true" class="fa fa-google-plus"></i><span>Google+</span></a></li>
+        <li><a href="#" class="linkedin" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i><span>LinkedIn</span></a></li>
+        <li><a href="#" class="instagram" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#" class="pinterest" target="_blank"><i aria-hidden="true" class="fa fa-pinterest"></i><span>Pinterest</span></a></li>
+    </ul>
+</aside>
+<section id="about-us">
+    <!-- Intro Title -->
+    <div class="intro">
+        <div class="intro-image">
+        </div>
+        <div class="grid">
+            <div class="intro-caption">
+                <h2>Nuestro equipo</h2>
+                <span>La esencia de la compañía</span>
+            </div>
+        </div>
+    </div>
+    <article class="col-12" id="about-main">
+        <div class="grid2">
+            <div class="col-12 grid">
+                <div class="col-4">
+                    <img src="javier-cancela.png" alt="Javier Cancela">
+                    <h3>Javier Cancela</h3>
+                    <h4>CEO y Co-fundador</h4>
+                    <p>Desarrollador de aplicaciones web. Amante de los videojuegos, aficionado a los deportes en
+                        general y al fútbol en particular.</p>
+                </div>
+                <div class="col-4">
+                    <img src="pablo-archanco.png" alt="Pablo Archanco">
+                    <h3>Pablo Archanco</h3>
+                    <h4>CFO y Co-fundador</h4>
+                    <p>Desarrollador de aplicaciones web. De sangre naranja y apasionado de las chapas.</p>
+                </div>
+                <div class="col-4">
+                    <img src="miguel-paraiso.png" alt="Miguel Paraíso">
+                    <h3>Miguel Paraíso</h3>
+                    <h4>CTO y Co-fundador</h4>
+                    <p>Administrador de Sistemas Informáticos y Desarrollador de aplicaciones multiplataforma. De
+                        corazón blanco y amante de la música electrónica.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="col-12" id="about-secundary">
+        <div class="grid2">
+            <h2>Sobre nosotros</h2>
+            <p>
+                Somos un equipo pequeño que asume el trabajo de integración tecnológica y de contenidos, la supervisión
+                del proyecto web, desde la consultoría estratégica hasta el
+                desarrollo y lanzamiento. También trabajamos en coordinación con profesionales expertos que aporten
+                valor al proyecto.
+            </p>
+            <ul>
+                <li>Conocemos el medio y queremos ser el mejor socio de nuestros clientes en su estrategia digital.</li>
+                <li>Enfatizamos en la conversión para obtener leads de calidad dispuestos a contratar, a comprar, a
+                    participar y a compartir.
+                </li>
+                <li>Todo lo que hacemos tiene un propósito estratégico para obtener resultados cuantificables. Ventas,
+                    Seguidores, Likes , Inscripciones, Comparticiones, Comentarios, Publicaciones...
+                </li>
+                <li>No nos conformamos con lo que nos piden para ir un paso más allá.</li>
+                <li>Transmitimos conocimiento a nuestros clientes para que aprecien nuestro trabajo y sobre todo sumen
+                    valor al proyecto.
+                </li>
+            </ul>
+        </div>
+    </article>
+</section>
+<footer>
+    <div id="footer-bottom">
+        <div class="grid2">
+            <div class="footerInf col-12">
+                <p>Ctra. Colmenar Viejo, Km. 12,800 - 28049 Madrid - <a
+                        href="mailto:info@webear.com"><span class="bold">info@webear.com</span></a></p>
+            </div>
+            <div class="footerInf col-12">
+                <p>Copyright © 2015 Webear - <a href="legal.html"><span class="bold">Aviso legal</span></a> -
+                    <a href="privacity.html"><span class="bold">Política de privacidad</span></a> - <a onclick=ventanaLicencia();><span class="bold">Licencia</span></a>
+                    - <a href="contact.html"><span class="bold">Contacto</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.cookieBar();
+    });
+</script>
+</body>
+</html>

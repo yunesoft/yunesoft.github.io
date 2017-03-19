@@ -1,0 +1,210 @@
+<!--
+    Autores=Javier, Pablo Archanco y Miguel Paraiso
+    Fecha=10-dic-2015
+    Licencia=GPL v3
+    Version=1.0
+    Descripcion=Servicios de "Webear"
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Servicios - Webear</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="licenciaPopUp.js"></script>
+    <script type="text/javascript" src="cookies.js"></script>
+    <script type="text/javascript" src="cookiebar.js"></script>
+    <link rel="stylesheet" href="cookiebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="social-sidebar.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+<body onload="setNameCookie();">
+<header class="col-12">
+    <div class="grid">
+        <div id="logo" class="col-5">
+            <h1><a href="index.html"><img src="logo.png" alt="Logo Webear"/></a></h1>
+        </div>
+        <div id="header-links" class="col-7">
+            <div class="top-links col-12">
+               <div id="user-log">Alhag34@ <span id="user-span">yahoo.com</span></div>
+                <a href="legal.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
+                <a href="#">chinese - ES</a><span> | </span><a href="#">Alhag</a>
+            </div>
+            <div class="bottom-links col-12">
+                <a href="#" id="contact-phone">
+                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">18061429953</span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav id="menu">
+    <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li class="has-sub active"><a href="services.html"><span>About Us </span></a>
+            <ul>
+                <li><a href="services.html#services-main"><span>IBN ALHAG</span></a></li>
+                <li><a href="services.html#services-secundary"><span>for international trade </span></a></li>
+            </ul>
+        </li>
+        <li><a href="projects.html"><span>Our Services</span></a></li>
+        <li><a href="about-us.html"><span>SOCIAL MEDIA</span></a></li>
+        <li><a href="contact.html"><span>Contact Us</span></a></li>
+    </ul>
+</nav>
+<aside id="sticky-social">
+    <ul>
+        <li><a href="#" class="facebook" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i><span>Facebook</span></a></li>
+        <li><a href="#" class="twitter" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#" class="gplus" target="_blank"><i aria-hidden="true" class="fa fa-google-plus"></i><span>Google+</span></a></li>
+        <li><a href="#" class="linkedin" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i><span>LinkedIn</span></a></li>
+        <li><a href="#" class="instagram" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#" class="pinterest" target="_blank"><i aria-hidden="true" class="fa fa-pinterest"></i><span>Pinterest</span></a></li>
+    </ul>
+</aside>
+<section id="services">
+    <!-- Intro Title -->
+    <div class="intro">
+        <div class="intro-image">
+        </div>
+        <div class="grid">
+            <div class="intro-caption">
+                <h2>IBN ALHAG</h2>
+                <span>Lo hacemos posible</span>
+            </div>
+        </div>
+    </div>
+    <article class="col-12" id="services-main">
+        <div class="grid2">
+            <div class="col-12 grid">
+                <div class="col-4">
+                    <h3>Páginas web</h3>
+                    <div class="content-container"><span class="bold">Diseño de páginas web adaptables a móviles y tablets</span>, nuestro
+                        diseño web
+                        de personas a personas con un servicio personal, orientación y asesoramiento, diseñadores de
+                        páginas
+                        web a medida en HTML o CMS. Buscamos resultados reales para tu proyecto al menor coste, diseño y
+                        programación de páginas web a medida o con gestores de contenido, consulta nuestros planes
+                        EcoWEb,
+                        Mi web Express y Mi web autogestionable
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h3>Diseño de Logos</h3>
+                    <div class="content-container">Tener un logotipo de calidad por fin al alcance de todos, diseños
+                        personalizados y exclusivos. Imagínate, una imagen de calidad para tu empresa al mejor precio y
+                        con
+                        unas características inmejorables, no busques más… <span class="bold">Diseño de logotipos desde 150 € al mejor
+                            precio calidad en Webear</span>, además si haces tu web y logotipo con nosotros, el diseño de
+                        tarjetas
+                        gratis.
+                        Con webear si no tienes un logotipo es porque no quieres.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h3>Especialistas WordPress</h3>
+                    <div class="content-container"><span class="bold">Diseñadores en gestores de contenido CMS </span>especialistas
+                        WordPress,
+                        Joomla…
+                        ampliación de blogs y web instaladas en WordPress, rediseño para WordPress, mantenimiento de
+                        sistemas WordPress, programación de plugins a medida… lo que quieras para el mejor gestor de
+                        contenidos actual, somos especialistas WordPress. Si buscas expertos en wordpress para
+                        consultoría,
+                        cursos wordpress a medida, diseño o desarrollo wordpress consúltanos
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 grid">
+                <div class="col-4">
+                    <h3>Mantenimiento de paginas web</h3>
+                    <div class="content-container">Necesitas reparaciones en tu web, <span class="bold">mantenimiento</span>, cambios o
+                        renovar
+                        tu
+                        página web… consúltanos y te asesoramos para esa web que está sin terminar o desactualizada.
+                        Reparación y rediseño de webs, una solución todo en uno sin complicaciones. Cuéntanos y te
+                        hacemos
+                        un plan a medida para que no tires el dinero en mantenimientos que no utilizas, olvídate de
+                        pagos
+                        inútiles.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h3>Posicionamiento en buscadores
+                    </h3>
+                    <div class="content-container"><span class="bold">Planes SEO de posicionamiento en buscadores de forma natural </span>con
+                        técnicas
+                        que te Alhagrán a subir puestos rápidamente, optimizamos tu página y la hacemos visible en
+                        Google.
+                        Preparamos tu web para buscadores, será la mas rápida subiendo puestos cada día con menos
+                        esfuerzo y
+                        menor gasto.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h3>Formación WordPress y web</h3>
+                    <div class="content-container"><span class="bold">Formación en diseño WordPress, HTML5, CSS3, Javascript… </span>a
+                        medida
+                        tanto presencial como a distancia, un profesor solo para ti para cualquier necesidad en sistemas
+                        wordpress o Web… clases por horas o por objetivos de aprendizaje, esta vez no te ganará la
+                        máquina, el éxito es tuyo con nuestras clases a domicilio WordPress…
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </article>
+    <article class="col-12" id="services-secundary">
+        <div class="grid2">
+            <h2 class="align-center">Expertos en tecnologías web</h2>
+            <div class="col-12 ">
+                <h3>Tecnologías Front End</h3>
+                <img src="tech-logos-front-end.png" alt="Tecnologías Front End">
+            </div>
+            <div class="col-12 grid">
+                <div class="col-4">
+                    <h3>Tecnologías Back End</h3>
+                    <img src="php.png" alt="Tecnologías Back End">
+                </div>
+                <div class="col-4">
+                    <h3>Tecnología responsive</h3>
+                    <img src="responisve.png" alt="Tecnología responsive">
+                </div>
+                <div class="col-4">
+                    <h3>Gestión de contenidos</h3>
+                    <img src="cms.png" alt="Gestión de contenidos">
+                </div>
+
+            </div>
+        </div>
+    </article>
+</section>
+<footer>
+    <div id="footer-bottom">
+        <div class="grid2">
+            <div class="footerInf col-12">
+                <p>Ctra. Colmenar Viejo, Km. 12,800 - 28049 Madrid - <a
+                        href="mailto:info@webear.com"><span class="bold">info@webear.com</span></a></p>
+            </div>
+            <div class="footerInf col-12">
+                <p>Copyright © 2015 Webear - <a href="legal.html"><span class="bold">Aviso legal</span></a> -
+                    <a href="privacity.html"><span class="bold">Política de privacidad</span></a> - <a onclick=ventanaLicencia();><span class="bold">Licencia</span></a>
+                    - <a href="contact.html"><span class="bold">Contact Us</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.cookieBar();
+    });
+</script>
+</body>
+
+</html>
