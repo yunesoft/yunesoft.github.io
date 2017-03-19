@@ -1,0 +1,201 @@
+/* ESTILOS DE LA SECCIÓN 'CONTACTO' */
+
+#contact-form {
+    background-color: #f7f7f7;
+}
+
+#contact-form form {
+    width: 100%;
+    padding: 1vw 0 2vw 0;
+    font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#contact-form form fieldset{
+    background-color: #fff;
+}
+
+/* REMOVE STYLE FOCUS*/
+*:focus {
+    outline: none;
+}
+
+/* CABECERA DEL FORM*/
+#header-form {
+    display: flex;
+    font-weight: 300;
+    color: #232323;
+}
+#header-form h2 {
+    width: 50%;
+}
+#header-form .required_notification {
+    width: 50%;
+    text-align: right;
+    margin: 75px 0 0 0;
+}
+
+/* ESTILOS DEL FORM*/
+#contact-form label {
+    width: 180px;
+    margin-top: 3px;
+    float: left;
+    padding: 3px;
+}
+
+#name, #surname1, #surname2, #email, #phone, #mobil {
+    height: 40px;
+    width: 70%;
+    padding: 5px 8px;
+}
+
+#contact-form textarea {
+    padding: 2%;
+    width: 90%;
+}
+
+#contact-form button {
+    margin-left: 50%;
+}
+#contact-form select {
+    width: 42%;
+    padding: 1%;
+    border-radius: 0;
+    height: 8%;
+    overflow: hidden;
+    background: url('../img/form/down_arrow.jpg') no-repeat;
+    background-position: 95% 45%;
+    background-size: 10px;
+    border: 1px solid #000000;
+    -webkit-appearance: none;
+}
+#contact-form select:disabled {
+    opacity: 0.1;
+}
+
+#contact-form input, #contact-form textarea {
+    border: 1px solid #aaa;
+    border-radius: 12px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border: 1px solid #555;
+}
+.checkbox:disabled{
+    opacity: 0.5;
+}
+.checkbox {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 10px auto;
+}
+/* PLACEHOLDER */
+:-moz-placeholder {
+    color: #849797;
+}
+
+::-webkit-input-placeholder {
+    color: #849797;
+}
+/* BUBBLE MESSAGE */
+::-webkit-validation-bubble-message {
+    padding: 1em;
+}
+/* ESTILOS DE LA LISTA */
+#contact-form ul {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-form li {
+    padding: 10px;
+    position: relative;
+}
+.help-block {
+    margin-top: 0.5em ;
+    text-align: center;
+    color: red;
+    font-size: 1em;
+}
+/* ESTILOS PARA VERIFICAR LOS CAMPOS*/
+#contact-form input:required, #contact-form textarea:required {
+    background: #fff url(../img/form/black_asterisk.png) no-repeat 98% center;
+}
+#contact-form input:focus:invalid,  #contact-form textarea:focus:invalid {
+    background: #fff url(../img/form/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+#contact-form input:required:valid,  #contact-form textarea:required:valid {
+    background: #fff url(../img/form/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+#contact-form input:focus:valid{
+    background: #fff url(../img/form/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+/* BOTONES */
+.boton {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #fff;
+    background: #006e9d;
+    padding: 0.5vw 1.5vw ;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.boton:hover {
+    color: #fff;
+    background-color: #389DD4;
+    text-decoration: none;
+    cursor: pointer;
+}
+.boton:disabled{
+    color: #a7bbbb;
+    background: #bbd4d4;
+}
+
+@media only screen and (max-width: 768px) {
+    #header-form h2 {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 1em;
+    }
+    #header-form .required_notification {
+        width: 100%;
+        margin: 0 0 1em 0;
+        text-align: center;
+    }
+    form {
+        text-align: center !important;
+    }
+    form li {
+        padding: 5px 0;
+    }
+    form label, form input {
+        display: block !important;
+        width: 60% !important;
+        margin: 0 20%;
+        float: none !important;
+        clear: both !important;
+    }
+    form select {
+        display: block !important;
+        width: 50% !important;
+        margin: 5px  auto !important;
+        float: none !important;
+        clear: both !important;
+    }
+    form .boton {
+        width: 80px !important;
+        height: 30px !important;
+        margin: 5px auto !important;
+    }
+
+}

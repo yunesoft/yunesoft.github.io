@@ -12,37 +12,37 @@
     <title>Página principal - Webear</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="favicon.ico"/>
-    <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
-    <script type="text/javascript" src="menu.js"></script>
-    <script type="text/javascript" src="licenciaPopUp.js"></script>
-    <script type="text/javascript" src="cookies.js"></script>
-    <script type="text/javascript" src="cookiebar.js"></script>
-    <script type="text/javascript" src="jquery.flexisel.js"></script>
-    <link href="flexisel.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="cookiebar.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="social-sidebar.css">
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="flip-container.css">
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/licenciaPopUp.js"></script>
+    <script type="text/javascript" src="js/cookies.js"></script>
+    <script type="text/javascript" src="js/cookiebar.js"></script>
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <link href="css/flexisel.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/cookiebar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/social-sidebar.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flip-container.css">
 </head>
 <body onload="setNameCookie();">
 <header class="col-12">
     <div class="grid">
         <div id="logo" class="col-5">
-            <h1><a href="index.html"><img src="logo.png" alt="Logo Webear"/></a></h1>
+            <h1><a href="index.html"><img src="img/logos/logo.png" alt="Logo Webear" width="400" height="300"/></a></h1>
         </div>
         <div id="header-links" class="col-7">
             <div class="top-links col-12">
-                <div id="user-log">Alhag34@ <span id="user-span">yahoo.com</span></div>
-                <a href="legal.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
-                <a href="#">chinese - ES</a><span> | </span><a href="#">Alhag</a>
+                <div id="user-log">Bienvenid@ <span id="user-span">Usuario</span></div>
+                <a href="index.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
+                <a href="#">Español - ES</a><span> | </span><a href="#">Ayuda</a>
             </div>
             <div class="bottom-links col-12">
                 <a href="#" id="contact-phone">
-                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">18 061 429 953</span></span>
+                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">91 416 87 69</span></span>
                 </a>
             </div>
         </div>
@@ -51,15 +51,15 @@
 <nav id="menu">
     <ul>
         <li class="active"><a href="index.html"><span>Home</span></a></li>
-        <li class="has-sub"><a href="services.html"><span>About Us </span><span class="sr-only">Tiene una lista desplegable</span></a>
+        <li class="has-sub"><a href="services.html"><span>Servicios </span><span class="sr-only">Tiene una lista desplegable</span></a>
             <ul>
-                     <li><a href="services.html#services-main"><span>IBN ALHAG</span></a></li>
-                <li><a href="services.html#services-secundary"><span>international trade</span></a></li>
+                <li><a href="services.html#services-main"><span>Nuestros servicios</span></a></li>
+                <li><a href="services.html#services-secundary"><span>Tecnologías de desarollo</span></a></li>
             </ul>
         </li>
-        <li><a href="projects.html"><span>Our Services</span></a></li>
-        <li><a href="about-us.html"><span>SOCIAL MEDIA</span></a></li>
-        <li><a href="contact.html"><span>Contact Us</span></a></li>
+        <li><a href="projects.html"><span>Proyectos</span></a></li>
+        <li><a href="about-us.html"><span>Sobre nosotros</span></a></li>
+        <li><a href="contact.html"><span>Contacto</span></a></li>
     </ul>
 </nav>
 <aside id="sticky-social">
@@ -85,11 +85,11 @@
 		<input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
 		<input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
 		<ul>
-			<li class="cs_skeleton"><img src="slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear" style="width: 100%;"></li>
-			<li class="num0 img slide"> <img src="slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear"></li>
-			<li class="num1 img slide"> <img src="slider_2.jpg" alt="Manos sujetando una esfera del mundo con conectores que representan la red de internet"></li>
-			<li class="num2 img slide"> <img src="slider_3.jpg" alt="Varias personas haciendo networking"></li>
-			<li class="num3 img slide"> <img src="slider_4.jpg" alt="Aplicaciones multiplataforma sobre diferentes dispositivos"></li>
+			<li class="cs_skeleton"><img src="img/slider/slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear" style="width: 100%;"></li>
+			<li class="num0 img slide"> <img src="img/slider/slider_1.jpg" alt="Varias pantallas con proyectos web que ha realizado webear"></li>
+			<li class="num1 img slide"> <img src="img/slider/slider_2.jpg" alt="Manos sujetando una esfera del mundo con conectores que representan la red de internet"></li>
+			<li class="num2 img slide"> <img src="img/slider/slider_3.jpg" alt="Varias personas haciendo networking"></li>
+			<li class="num3 img slide"> <img src="img/slider/slider_4.jpg" alt="Aplicaciones multiplataforma sobre diferentes dispositivos"></li>
 		</ul>
 		<div class="cs_play_pause">
 			<label class="cs_play" for="cs_play1"><i aria-hidden="true"></i><span class="sr-only">Activar transición automática de imágenes</span><span class="bold"></span></label>
@@ -109,13 +109,13 @@
 		</div>
 		<div class="cs_bullets">
 			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="slider_1.jpg" alt="Miniatura de la primera imagen, que muestra varias pantallas con proyectos web que ha realizado webear"></span></label>
+				<span class="cs_thumb"><img src="img/slider/tooltips/slider_1.jpg" alt="Miniatura de la primera imagen, que muestra varias pantallas con proyectos web que ha realizado webear"></span></label>
 			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="slider_2.jpg" alt="Miniatura de la segunda imagen, que muestra unas manos sujetando una esfera del mundo con conectores que representan la red de internet"></span></label>
+				<span class="cs_thumb"><img src="img/slider/tooltips/slider_2.jpg" alt="Miniatura de la segunda imagen, que muestra unas manos sujetando una esfera del mundo con conectores que representan la red de internet"></span></label>
 			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="slider_3.jpg" alt="Miniatura de la tercera imagen, que muestra varias personas haciendo networking"></span></label>
+				<span class="cs_thumb"><img src="img/slider/tooltips/slider_3.jpg" alt="Miniatura de la tercera imagen, que muestra varias personas haciendo networking"></span></label>
 			<label class="num3" for="cs_slide1_3"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="slider_4.jpg" alt="Miniatura de la cuarta imagen, que muestra aplicaciones multiplataforma sobre diferentes dispositivos"></span></label>
+				<span class="cs_thumb"><img src="img/slider/tooltips/slider_4.jpg" alt="Miniatura de la cuarta imagen, que muestra aplicaciones multiplataforma sobre diferentes dispositivos"></span></label>
 		</div>
 	</div>
 	<!-- End Slider -->
@@ -142,7 +142,7 @@
                 </p>
                 <p>
                     Echa un vistazo a nuestros últimos proyectos y contacta con nosotros para saber cómo podemos
-                    Alhagrte.
+                    ayudarte.
                 </p>
             </div>
         </div>
@@ -261,7 +261,7 @@
     <article id="company-slider" class="col-12">
         <div class="grid">
             <!-- Animacion Empresas -->
-           <ul id="flexiselDemo3">
+            <ul id="flexiselDemo3">
                 <li><a href="http://www.amazon.es/" target="_blank"><img alt="Amazon" src="img/empresas/logo-amazon.png"/></a></li>
                 <li><a href="https://www.android.com/intl/es_es/" target="_blank"><img alt="Android" src="img/empresas/logo-android.png"/></a></li>
                 <li><a href="https://www.ebay.es" target="_blank"><img alt="Ebay" src="img/empresas/logo-ebay.png"/></a></li>
