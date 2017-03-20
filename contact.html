@@ -37,30 +37,31 @@
         </div>
         <div id="header-links" class="col-7">
             <div class="top-links col-12">
-                <div id="user-log">Bienvenid@ <span id="user-span">Usuario</span></div>
+                <div id="user-log">Alhag34@ <span id="user-span">yahoo.com</span></div>
                 <a href="contact.html" id="logout" onclick="userlogout()">Logout</a><span> | </span>
-                <a href="#">Español - ES</a><span> | </span><a href="#">Ayuda</a>
+                <a href="#">English - EN</a><span> | </span><a href="#">HAG</a>
             </div>
             <div class="bottom-links col-12">
                 <a href="#" id="contact-phone">
-                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">91 416 87 69</span></span>
+                    <span><i aria-hidden="true" class="fa fa-phone"></i> <span class="bold">18 061429953</span></span>
                 </a>
             </div>
         </div>
     </div>
 </header>
+</header>
 <nav id="menu">
-    <ul>
-        <li><a href="index.html"><span>Home</span></a></li>
-        <li class="has-sub"><a href="services.html"><span>Servicios </span></a>
+       <ul>
+        <li class="active"><a href="index.html"><span>Home</span></a></li>
+        <li class="has-sub"><a href="services.html"><span>About Us</span><span class="sr-only">Tiene una lista desplegable</span></a>
             <ul>
-                <li><a href="services.html#services-main"><span>Nuestros servicios</span></a></li>
-                <li><a href="services.html#services-secundary"><span>Tecnologías de desarollo</span></a></li>
+                <li><a href="services.html#services-main"><span>IBN ALHAG</span></a></li>
+                <li><a href="services.html#services-secundary"><span>INTERNATIONAL TRADE</span></a></li>
             </ul>
         </li>
-        <li><a href="projects.html"><span>Proyectos</span></a></li>
-        <li><a href="about-us.html"><span>Sobre nosotros</span></a></li>
-        <li class="active"><a href="contact.html"><span>Contacto</span></a></li>
+        <li><a href="projects.html"><span>SOCIAL MEDIA</span></a></li>
+        <li><a href="about-us.html"><span>TAKE A LOOK</span></a></li>
+        <li><a href="contact.html"><span>CONTACT US</span></a></li>
     </ul>
 </nav>
 <aside id="sticky-social">
@@ -75,34 +76,34 @@
 </aside>
 <div id="contact-form">
     <div id="header-form" class="grid">
-        <h2>Formulario de contacto</h2>
-        <p class="required_notification"> Los campos indicados con * son obligatorios</p>
+        <h2>Contact Form</h2>
+        <p class="required_notification"> Contact Us</p>
     </div>
     <div class="grid">
         <form onsubmit="return validar()" action="success.html">
             <fieldset>
                 <ul>
                     <li>
-                        <label for="name">Nombre</label>
-                        <input placeholder="Nombre" type="text" id="name" oninput="habilitar(); onError(this, this.id);"
-                               onblur="vaciarError(this)" pattern="^([A-ZÁÉÍÓÚa-záéíóú ]{1,30})" title="Se requiere un nombre (sólo carácteres)" required>
+                        <label for="name">number</label>
+                        <input placeholder="number" type="text" id="name" oninput="habilitar(); onError(this, this.id);"
+                               onblur="vaciarError(this)" pattern="^([A-ZÁÉÍÓÚa-záéíóú ]{1,30})" title="Se requiere un number (sólo carácteres)" required>
                         <div id="errorName"></div>
                     </li>
                     <li>
-                        <label for="surname1">Apellido 1</label>
-                        <input placeholder="Primer apellido" type="text" id="surname1" oninput="habilitar(); onError(this, this.id);"
+                        <label for="surname1">Last name </label>
+                        <input placeholder="JACK" type="text" id="surname1" oninput="habilitar(); onError(this, this.id);"
                                onblur="vaciarError(this)" pattern="^([A-ZÁÉÍÓÚa-záéíóú ]{1,30})" title="Se requiere un apellido (sólo carácteres)" required>
                         <div id="errorSurname1"></div>
                     </li>
                     <li>
-                        <label for="surname2">Apellido 2</label>
-                        <input placeholder="Segundo apellido" type="text" id="surname2" oninput="habilitar(); onError(this, this.id);"
+                        <label for="surname2">Surname </label>
+                        <input placeholder="Alhag" type="text" id="surname" oninput="habilitar(); onError(this, this.id);"
                                onblur="vaciarError(this)" pattern="^([A-ZÁÉÍÓÚa-záéíóú ]{1,30})" title="Se requiere un apellido (sólo carácteres)" required>
                         <div id="errorSurname2"></div>
                     </li>
                     <li>
                         <label for="email">E-mail</label>
-                        <input placeholder="webear@bear.com" type="text" id="email" oninput="habilitar(); onError(this, this.id);"
+                        <input placeholder="Alhag34@ yahoo.com" type="text" id="email" oninput="habilitar(); onError(this, this.id);"
                                pattern="^\w+@\w+?\.*\w{2,3}$"
                                onblur="vaciarError(this)"
                                title="Se requiere su email" required>
@@ -110,8 +111,8 @@
                     </li>
                     <li>
 
-                        <label for="phone">Teléfono Fijo</label>
-                        <input placeholder="Telefono fijo (900 000 000)" type="tel" id="phone"
+                        <label for="phone">Landline</label>
+                        <input placeholder="Landline (700 000 000)" type="tel" id="phone"
                                oninput="habilitar(); onError(this, this.id);"
                                pattern="^[9]\d{8}$"
                                onblur="vaciarError(this)"
@@ -120,8 +121,8 @@
                     </li>
                     <li>
 
-                        <label for="mobil">Teléfono Móvil</label>
-                        <input placeholder="Teléfono movil (600 000 000)" type="tel" id="mobil"
+                        <label for="mobil">Mobile phone</label>
+                        <input placeholder="Mobile phonel (+86 18 061429953)" type="tel" id="mobil"
                                oninput="habilitar(); onError(this, this.id);"
                                pattern="^[6]\d{8}$"
                                onblur="vaciarError(this)"
@@ -129,28 +130,28 @@
                         <div id="errorMobil"></div>
                     </li>
                     <li>
-                            <textarea id="texto" cols="50" rows="10" placeholder="Escriba sus sugerencias, por favor..."
+                            <textarea id="texto" cols="50" rows="10" placeholder="Enter your suggestions, please ..."
                                       oninput="habilitar()"></textarea>
                     </li>
                     <li>
                         <div class="flex">
                             <div class="col-6">
-                                <label for="options"> Seleccione el motivo de contacto:</label>
+                                <label for="options"> Select the contact reason:</label>
                                 <select required id="options" onchange="seleccionaOpcion()" name="titulo">
-                                    <option selected value="Ninguna">Ninguna</option>
-                                    <option value="Sugerencia">Sugerencia</option>
-                                    <option value="Queja">Queja</option>
-                                    <option value="Informacion">Informacion</option>
+                                    <option selected value="Any">Any</option>
+                                    <option value="Suggestion">Suggestion</option>
+                                    <option value="Complain">Complain</option>
+                                    <option value="Information">Information</option>
                                 </select>
                             </div>
                             <div class="col-6">
-                                <label for="options2"> Sobre que asunto:</label>
+                                <label for="options2">On what subject::</label>
                                 <select id="options2" disabled></select>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <label for="conditions">Términos y condiciones</label>
+                        <label for="conditions">Terms and Conditions</label>
                         <input class="checkbox" type="checkbox" id="conditions" disabled onchange="habilitarchk()">
                     </li>
                     <li>
@@ -166,13 +167,13 @@
     <div id="footer-bottom">
         <div class="grid2">
             <div class="footerInf col-12">
-                <p>Ctra. Colmenar Viejo, Km. 12,800 - 28049 Madrid - <a
-                        href="mailto:info@webear.com"><span class="bold">info@webear.com</span></a></p>
+                <p> Jiangning, Nanjing, Jiangsu, China   - <a
+                        href="mailto:alhagg34@gmail.com"><span class="bold">alhagg34@gmail.com</span></a></p>
             </div>
             <div class="footerInf col-12">
-                <p>Copyright © 2015 Webear - <a href="legal.html"><span class="bold">Aviso legal</span></a> -
-                    <a href="privacity.html"><span class="bold">Política de privacidad</span></a> - <a onclick=ventanaLicencia();><span class="bold">Licencia</span></a>
-                    - <a href="contact.html"><span class="bold">Contacto</span></a>
+                <p>Copyright © 2015 IBN ALHAG- <a href="legal.html"><span class="bold"></span></a> -
+                    <a href="privacity.html"><span class="bold"></span></a> - <a onclick=ventanaLicencia();><span class="bold"></span></a>
+                    - <a href="contact.html"><span class="bold"></span></a>
                 </p>
             </div>
         </div>
