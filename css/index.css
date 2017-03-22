@@ -1,0 +1,115 @@
+/* ESTILOS DEL HOME */
+
+#home #slider-title{
+	height: 65px;
+	position: absolute;
+	left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+	margin: 20px auto;
+}
+#home #slider-title h2{
+    width: 100%;
+	font-size: 32px;
+	position: relative;
+	color: white;
+	padding: 10px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+    text-align: center;
+}
+#company-slider {
+	padding-top: 0;
+}
+#home .grid2 .title {
+	border-bottom: 3px solid #006e9d;
+	color: #464646;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+#home .grid2 .title h3{
+	margin-bottom: 5px;
+}
+#home #services{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#home #about {
+	background-color: #006e9d;
+	font-size: 20px;
+	font-weight: 300;
+}
+#home #about #about-logo {
+	background: url(../img/logos/logo-icon-blue.gif) no-repeat;
+    background-size: 75%;
+    background-position: 50% 90%;
+}
+#home #about #about-inf h2 {
+	font-weight: 500;
+	margin: 0;
+}
+#home #about #about-logo {
+	float: left;
+}
+#home #about #about-inf {
+	float: left;
+	color: #fff;
+}
+#home #about #about-inf .big-text {
+	font-size: 22px;
+}
+#home #about #about-inf b {
+	font-weight: 600;
+}
+#home #empresas{
+	width:960px;
+	overflow: hidden;
+	height: 122px;
+    border: 1px solid #464646;
+    border-radius: 30px;
+    padding: 10px 0;
+	margin-bottom: 20px;
+}
+#home #titulo-empresas{
+	text-align: center;
+}
+#home #empresas img{
+	-webkit-transition: 2s ease-out;
+    -moz-transition: 2s ease-out;
+    transition: 2s ease-out;
+}
+/* Multiplicar por 320 cada logo "de más" que haya en la imagen de empresas */
+#home #empresas img:hover{
+	-moz-transform: translateX(-640px);
+    -webkit-transform: translateX(-640px);
+    transform: translateX(-640px);
+}
+
+@media only screen and (max-width: 1050px) {
+	#home #slider-title{
+		height: 47px;
+	}
+	#home #slider-title h2{
+		font-size: 20px;
+	}
+	#home #about #about-logo {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#home #slider-title{
+		height: 33px;
+		margin: 0;
+	}
+	#home #slider-title h2{
+		font-size: 16px;
+		padding: 5px;
+	}
+	#home #about #about-inf {
+		padding: 20px 0;
+	}
+}

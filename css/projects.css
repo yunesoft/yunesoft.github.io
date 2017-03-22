@@ -1,0 +1,5 @@
+/* ESTILOS DE LA SECCIÓN 'PROYECTOS' */
+
+#projects .intro-image{
+	background-image: url("../img/intros/projects.jpg");
+}

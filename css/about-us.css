@@ -1,0 +1,32 @@
+
+#about-us .intro-image{
+	background-image: url("../img/intros/about-us.jpg");
+}
+#about-us h1 {
+    margin-bottom: 0;
+}
+#about-us ul {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    list-style-type: disc;
+}
+#about-main {
+    background-color: #006e9d;
+    color: #fff;
+    text-align: center;
+}
+#about-main img {
+    width: 90%;
+}
+#about-secundary {
+    background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 768px) {
+    #about-main img {
+        width: 40%;
+    }
+}
