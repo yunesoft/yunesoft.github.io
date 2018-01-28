@@ -1,0 +1,35 @@
+{
+  "name": "my-resume",
+  "version": "0.0.1",
+  "description": "A project that allows to have a CV from a .json file",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run json2html && npm run html2pdf",
+    "json2html": "resume export --format html --theme stackoverflow resume.html",
+    "html2pdf": "node index.js",
+    "publish": "npm json2html && resume publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmartinez/my-resume.git"
+  },
+  "keywords": [
+    "resume-cli",
+    "html-pdf",
+    "cv-json"
+  ],
+  "author": "chmartinez35",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmartinez/my-resume/issues"
+  },
+  "homepage": "https://github.com/chmartinez/my-resume#readme",
+  "dependencies": {
+    "html-pdf": "^2.1.0",
+    "jsonresume-theme-stackoverflow": "^1.0.4",
+    "resume-cli": "^0.4.18"
+  },
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.13"
+  }
+}

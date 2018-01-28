@@ -1,0 +1,301 @@
+{
+  "basics": {
+    "name": "Christian Martinez",
+    "label": "Computer Engineer",
+    "picture": "http://www.doyoubuzz.com/var/users/_/2016/12/21/17/1327116/avatar/1284187/avatar_cp_630.jpg",
+    "email": "chmartinez35@gmail.com",
+    "phone": "(+549) 351 374-7414",
+    "website": "https://ar.linkedin.com/in/christian-martínez-63350815",
+    "birth": {
+      "place": "Córdoba",
+      "state": "Córdoba",
+      "date": "1985"
+    },
+    "summary": "A flexible and risk taking Computer Engineer with years of experience implementing systems in Javascript and C# .NET . Exceptional in team collaboration and solution brainstorming, with attention to details and great communication skills.",
+    "location": {
+      "address": "387 Fructuoso Rivera",
+      "postalCode": "CP 5000",
+      "city": "Córdoba",
+      "countryCode": "ARG",
+      "region": "Córdoba"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "hache",
+        "url": "https://twitter.com/hachesJS"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Christian Martinez",
+        "url": "https://ar.linkedin.com/in/christian-martínez-63350815"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Globant",
+      "position": "Web UI Team Leader",
+      "website": "http://www.espn.com/fantasy/",
+      "startDate": "2017-07-01",
+      "summary": "Working as a Team Leader for one of Globant's project, doing not only web UI tasks related but also leading one of the Web UI team within the project",
+      "highlights": [
+        "Leading the team through the sprints in order to deliver the agreeded scope with the client",
+        "Participating and collaborating with the client in technical decisions related to the project itself",
+        "Implementing requested features using React, Mobx and Next as base UI technologies",
+        "Using ESPN authored UI styling tools and components to deliver requested features"
+      ],
+      "keywords": ["ReactJS", "NextJS", "MobX", "Chai", "Enzyme", "Mocha", "CSS", "flexbox"]
+    },
+    {
+      "company": "Gosoft S.A",
+      "position": "Full Stack Engineer",
+      "website": "http://www.cocobongo.com",
+      "startDate": "2016-03-01",
+      "endDate": "2017-05-31",
+      "summary": "Doing full stack tasks, from analyzing data with Google Analytics to implementing DB designs needed for the project. Also, doing tasks related to team management such as having weekly meetings with main stakeholders, organizing team tasks and solving project conflicts and impediments.",
+      "highlights": [
+        "Using Google Analytics to analyze interaction and web site usage across the project",
+        "Defining and implementing new ways to gather information within Google Analytics",
+        "Implementing customer design changes across the entire UI of the project.",
+        "Implementing/Maintaining full backend code (from API coding/integrations to DB designs and implementations)",
+        "Defining new features/A-B testings for the website that not only affect its L&F and BE infrastructure, but also helps in the definition for new Google AdWords campaigns that maximize the investment made by Marketing."
+      ],
+      "keywords": ["AngularJS"," Sass"," Google Analytics"," Razor Views"," .NET Core"," .NET Framework"," Entity Framework"," Hangfire"," SQL Server Management"]
+    },
+    {
+      "company": "Gosoft S.A",
+      "position": "Front End Engineer",
+      "website": "http://www.gosur.com",
+      "startDate": "2014-10-01",
+      "endDate": "2016-03-01",
+      "summary": "Responsible of FrontEnd code delivered in several projects across the company. Also, part of the UI-UX design team, collaborating with ideas and prototypes; implementing new features and giving support for projects in their multiple versions (mobile, tablet and desktop).",
+      "highlights": [
+        "Using HTML and Javascript skills to deliver features requested in all major browsers (IE7+) for mobile, tablet and desktop",
+        "Working side by side with designers to bring design ideas into reality",
+        "Including analytics events to UI components in order to track user behavior",
+        "Collaborating with the Backend team in features E2E, API's definitions and testing"
+      ],
+      "keywords": ["AngularJS"," underscore"," jquery"," modernizr"," respond.js"," sass"," C# Razor"," Google Analytics"]
+
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "Javascript Developer",
+      "website": "http://www.intel.com",
+      "startDate": "2014-07-01",
+      "endDate": "2014-09-01",
+      "summary": "Working as a Javascript Developer for the FrontEnd team by adding features to a hybrid app developed with the Ionic Framework",
+      "highlights": [
+        "Define and implement new features using AngularJS.",
+        "Define, configure and deploy tools at the CI environment (TeamCity) for maintainability, code complexity and testing coverage",
+        "Collaborate with cloud and android/iOS teams at feature's integration."
+      ],
+      "keywords": ["AngularJS"," Jasmine"," Protractor"," Ionic Framework"," Grunt/Gulp"," Karma"," TeamCity CI"]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "SW Developer",
+      "website": "http://www.openstack.org",
+      "startDate": "2014-02-01",
+      "endDate": "2014-06-01",
+      "summary": "Contributing to the Openstack community by delivering new blueprints and bug fixing on several modules.Launchpad profile at: https://launchpad.net/~christian-martinez",
+      "highlights": [
+        "Develop and deliver features and bug fixing following open source's workflow, always based on Intel's needs.",
+        "Use cloud computing and UI knowledge to improve and propose feature across the community"
+      ],
+      "keywords": ["Javascript"," AngularJS"," Python"," Django"," MongoDB"," SQL"]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "SW Research Developer",
+      "website": "http://www.intel.com",
+      "startDate": "2013-10-01",
+      "endDate": "2014-01-31",
+      "summary": "Working as a research developer, delivering different prototypes and design that meet Intel requirements.",
+      "highlights": [
+        "End to end Android + Web App development to proof the concept for an e-commerce service on the Tizen OS, featuring location based behavior.",
+        "Part of the cross functional team, developing mostly on the backend (nodejitsu, nodes, sailsjs) and on the web dashboard (bootstrap, angularjs, leaflet)",
+        "Use business acumen to challenge current backlog and create new ideas to be implemented",
+        "Envisioned product features to enrich the proof of concept (like location based behavior).",
+        "Developed some of the android screens as embedded (webkit) HTML angularjs backend served pages"
+      ],
+      "keywords": ["Javascript"," AngularJS"," Leaflef"," Sails"," NodeJs"," Nodejitsu"," Android"," Apache Cordova"," PhoneGap"," html5"," bootstrap"," webSockets"," GoogleMaps API"]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "Agile SW Engineer",
+      "website": "http://www.intel.com",
+      "startDate": "2012-09-01",
+      "endDate": "2013-09-01",
+      "summary": "Worked in the design and implementation of new features for the Intel Recommendation tool, and also as a web designer/developer in the improvement of the overall site experience. Also, worked as Agile engineer in the research and development of E2E features and CMS components for a eCommerce web application. Worked as Scrum Master backup and as security consultant.",
+      "highlights": [
+        "Analysis, design, coding and testing of E2E features, such as search engines, catalog browsing, content details, metadata aggregation from multiple sources.",
+        "CMS components development for both marketing admins and end-users.",
+        "Scrum master Backup",
+        "SCM activities related to security checks (automated tests for security and strategy definition to insert security checks on CI process).",
+        "Building prototypes for research and POC purposes",
+        "Responsible for the visual appearance, layout and usability of some of the web pages related to the project",
+        "Both client and server development along with a international team (India, China and US)"
+      ],
+      "keywords": ["Hybris"," Java"," Spring MVC"," HTML5"," Javascript"," NodeJS"," Handlebars"," Bootstrap"," Jasmine"," Selenium Web Driver"," JUnit"," Mercurial"," SDL"," JIRA"," Bamboo"," Ant"," IIS"," SQL Server Management"," C#"]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "C++ Developer",
+      "website": "https://software.intel.com/sites/landingpage/intelappup/",
+      "startDate": "2010-04-10",
+      "endDate": "2012-08-10",
+      "summary": "Focused on delivering feature for a Windows client application. Also, participated as Security Development Leader, following stipulated procedures to ensure the security level of the product",
+      "highlights": [
+        "Implementation of features including in-app purchase flows, branding customisation and security-related features",
+        "SDL Security Lead for client-side features including analysis, implementation, code reviews, testing and tracking of security features",
+        "UI enhancements with CSS3 and Javascript"
+      ],
+      "keywords": ["C++"," C#"," Javascript"," HTML5"," WebSockets"," CxxTest"," SoapUI"," SVN"," Windows Powershell"," SDL Threat Modelling"]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad Nacional de Córdoba",
+      "area": "Engineer",
+      "studyType": "Computer",
+      "startDate": "2003-03-01",
+      "endDate": "2010-10-01",
+      "gpa": "7.85",
+      "location": {
+        "city": "Córdoba",
+        "countryCode": "ARG",
+        "region": "Córdoba"
+      },
+      "courses": [
+        "Modelling, Rendering & 3D Animation Introduction",
+        "Distributed System Programming",
+        "Testing as part of the Software Quality Process"
+      ]
+    },
+    {
+      "institution": "Intel Corporation",
+      "area": "Software Training",
+      "studyType": "",
+      "startDate": "2010-10-01",
+      "endDate": "2014-01-01",
+      "gpa": "",
+      "courses": [
+        "C++ certification course",
+        "Java Programming Course - Initial Level",
+        "SANS 560 - Pen tester certification",
+        "Java Spring MVC Workshop",
+        "HTML5 training",
+        "Android Bootcamp",
+        "MongoDB basic training",
+        "Introduction to SCRUM",
+        "SCRUM certification course"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Honorific mention for Best Career Grade",
+      "date": "2010-10-15",
+      "awarder": "CIEC (Cordoba Specialist Engineer College)",
+      "summary": "Received an honorific mention for having the best grade average when receiving his Computer Engineer's title"
+    },
+    {
+      "title": "Discipline Role Model",
+      "date": "2012-05-21",
+      "awarder": "Intel ASDC (Argentina Software Development Center)",
+      "summary": "Received a recognition for his contributions to the consolidation of ASDC as a role model in Security"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "Javascript",
+        "AngularJS",
+        "ReactJS",
+        "Ionic",
+        "HTML5",
+        "SASS",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Intermediate",
+      "keywords": [
+        "C#",
+        "SQL Server",
+        "Git"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Intermediate",
+      "keywords": [
+        "Scrum",
+        "Agile Methodologies",
+        "Teamwork"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Upper Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Soccer",
+        "Soccer (not an error)",
+        "Soccer (yes, I like soccer!)"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "singing",
+        "drums",
+        "dance"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "Javascript",
+        "FrontEnd development",
+        "Scrum",
+        "Teamwork environments"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Sebastián Gritti (Ssr UX Designer at Mercadolibre.com)",
+      "reference": "I have been working with Christian on several projects. I greatly appreciated his commitment to lead and plan; He is a responsible person and very creative when solving problems.\r\nHe is able to transmit his knowledge to others. He is agile and efficient in his work. We achieved good products working as a team. A professional with good ideas, always wanting to excel."
+    },
+    {
+      "name": "Juan Manuel Figueroa (Team Leader/ Sr Python Backend Engineer en Olapic, Inc)",
+      "reference": "I worked with Christian in several projects, the most important one an e-commerce platform for a nightclub from Mexico. We built this project together from scratch and he was responsible for the frontend side (which means: css + html) but also for all the functionality (using javascript) and for this particular case using AngularJs and also all the analytics stuff to keep tracking about how the users interacts with the site. When I left the company, beyond the frontend work, he became a fullstack engineer taking the responsibility to maintain and improve the backend side, that was built using .net technologies, and also he was responsible to communicate to the client in order to define changes, new features an other improvements.  In general lines I would like to recommend Christian because he has very strong knowledge in several areas regarding Software Engineering like: design patterns, quality assurance, deployment, etc. but the most important thing is that is a great teammate to work with, I mean open, flexible, always trying to look forward the best solution posible for the problem he is in front of, always willing to help other teammates, very result oriented, and very committed"
+    },
+    {
+      "name": "Facundo Farías (Senior Software Engineer at Caravelo)",
+      "reference": "I worked in the same team with Christian, while I was at Intel. We have been working on several projects, using different technologies and I have to highlight that he is always willing to learn new stuff and improve himself as a software developer. I would definitely work with him again."
+    },
+    {
+      "name": "Emiliano Castro (Senior Software Engineer at New Relic, Inc.)",
+      "reference": "I've worked with Christian during almost three year at Intel. Christian is a passionate engineer that is able to play different kind of roles in your team. He has strong coding and software design skills. He is a motivated and self driven engineer. I would strongly recommend Christian to be part of your team and I would like to share and enjoy being part of the same team again in the future."
+    }
+  ]
+}
